@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap');
+
+html,body{
+    margin: 0;
+    background: lightgray;
+    font-family: 'Source Code Pro', monospace;
+}
+h1 {
+    margin: 0;
+}
+.container {
+    width: 350px;
+    padding: 2em;
+    background: #fff;
+    border-radius: 8px;
+    margin: 10% auto;
+}
+
+.txtfld {
+    width: calc(100% - 2em);
+    padding: 1em;
+    margin-top: 1em;
+
+}
+
+.btn{
+    width: 100%;
+    background: #00c3ff;
+    color: #fff;
+    margin-top: 2em;
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+p {
+    color: grey;
+}
+.msg {
+    position: absolute;
+    padding: .5em;
+    background: rgba(0, 0, 0, .8);
+    color: #fff;
+    opacity: 0;
+}
+
+/*# sourceMappingURL=/main.af46ece4.css.map */
